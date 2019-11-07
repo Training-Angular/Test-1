@@ -37,11 +37,6 @@ a:hover {
 
 /* Header */
 
-.header {
-  width: 100%;
-  height: 9vh;
-}
-
 .navbar-nav {
   padding: 10px 40px 0 0;
 }
@@ -73,7 +68,7 @@ a:hover {
 
 .content {
   width: 100%;
-  height: 85vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,7 +153,9 @@ a:hover {
 /* Footer */
 .footer {
   width: 100%;
-  height: 6vh;
+  height: 44px;
+  position: fixed;
+  bottom: 0;
   border-top: 1px solid #e4e4e4;
   background-color: #f2f2f2;
 }
